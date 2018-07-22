@@ -1,0 +1,32 @@
+eclipse.. file>import>general>exusting project into workspace>browse ur project Tours and Travels>finish
+oracle 10g
+run sql command line
+...connect system/java
+...create user jai identified by jai
+...grant dba to jai
+
+open cmd and write imp
+username: jai
+password: jai
+
+import file: Export.dmp= path of TBackup.dmp
+buffer size: 8200(whatever u want)
+then no>yes>yes>yes>yes
+
+now go to eclipse: right click on tours and travels and click on server:select the path of tomcat 7.0 server..
+java version 1.6:
+
+right click on T&T and click on run as server
+double click on server and change port no. from 8080..
+copy url and open on any browser
+
+go to start menu and write "go to database homepage"
+login to jai account in database. username jai,password jai
+object browser>browse tables.
+
+BY SQL COMMAND LINE:
+connect jai
+pass: jai
+
+show user;
+select * from customer;
